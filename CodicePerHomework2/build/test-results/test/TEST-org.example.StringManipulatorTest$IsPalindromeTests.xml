@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="T3-IsPalindrome Tests" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-10-10T09:38:59" hostname="UNKNOWN" time="0.021">
+  <properties/>
+  <testcase name="T3.1-Check a palindrome string" classname="org.example.StringManipulatorTest$IsPalindromeTests" time="0.016"/>
+  <testcase name="T3.3-Check a null string" classname="org.example.StringManipulatorTest$IsPalindromeTests" time="0.002"/>
+  <testcase name="T3.2-Check a non-palindrome string" classname="org.example.StringManipulatorTest$IsPalindromeTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="T2-Reverse Tests" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-10-10T09:38:59" hostname="UNKNOWN" time="0.004">
+  <properties/>
+  <testcase name="T2.1-Reverse a non-null string" classname="org.example.StringManipulatorTest$ReverseTests" time="0.002"/>
+  <testcase name="T2.2-Reverse a null string" classname="org.example.StringManipulatorTest$ReverseTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
