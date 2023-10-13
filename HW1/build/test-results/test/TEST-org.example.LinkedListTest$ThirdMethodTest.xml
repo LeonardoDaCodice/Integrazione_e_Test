@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test Metodo -&gt; get()" tests="5" skipped="0" failures="0" errors="0" timestamp="2023-10-13T09:40:23" hostname="UNKNOWN" time="0.007">
+  <properties/>
+  <testcase name="T7.1 - Tentativo di ottenere un elemento da una lista vuota" classname="org.example.LinkedListTest$ThirdMethodTest" time="0.002"/>
+  <testcase name="T7.2 - Tentativo di ottenere un elemento da una posizione negativa" classname="org.example.LinkedListTest$ThirdMethodTest" time="0.001"/>
+  <testcase name="T7.3 - Tentativo di ottenere un elemento da una posizione maggiore della dimensione" classname="org.example.LinkedListTest$ThirdMethodTest" time="0.001"/>
+  <testcase name="T6 - Ottieni un elemento esistente dalla lista" classname="org.example.LinkedListTest$ThirdMethodTest" time="0.001"/>
+  <testcase name="T7 - Tentativo di ottenere un elemento da una posizione non valida" classname="org.example.LinkedListTest$ThirdMethodTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
