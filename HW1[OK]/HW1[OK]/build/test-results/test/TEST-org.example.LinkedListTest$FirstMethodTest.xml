@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Test Metodo -&gt; add()" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-10-10T15:48:56" hostname="CAP-WORKSTATION" time="0.008">
-  <properties/>
-  <testcase name="T1 - Aggiunta di un elemento in una lista vuota" classname="org.example.LinkedListTest$FirstMethodTest" time="0.002"/>
-  <testcase name="T2 - Aggiunta di elementi consecutivi" classname="org.example.LinkedListTest$FirstMethodTest" time="0.001"/>
-  <testcase name="T3 - Aggiunta di elementi duplicati" classname="org.example.LinkedListTest$FirstMethodTest" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
