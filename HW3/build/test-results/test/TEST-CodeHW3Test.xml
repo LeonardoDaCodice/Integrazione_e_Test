@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CodeHW3Test" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-10-12T20:41:39" hostname="UNKNOWN" time="0.215">
+  <properties/>
+  <testcase name="isPrimeTest" classname="CodeHW3Test" time="0.182"/>
+  <testcase name="evenOrOddTest" classname="CodeHW3Test" time="0.031"/>
+  <system-out><![CDATA[timestamp = 2023-10-12T22:41:40.065194800, generated = 
+  arg0: -20
+
+
+timestamp = 2023-10-12T22:41:40.080637300, generated = 
+  arg0: -19
+
+
+timestamp = 2023-10-12T22:41:40.082106700, generated = 
+  arg0: -18
+
+
+timestamp = 2023-10-12T22:41:40.082106700, generated = 
+  arg0: -17
+
+
+timestamp = 2023-10-12T22:41:40.083114900, generated = 
+  arg0: -16
+
+
+timestamp = 2023-10-12T22:41:40.084323, generated = 
+  arg0: -15
+
+
+timestamp = 2023-10-12T22:41:40.085425100, generated = 
+  arg0: -14
+
+
+timestamp = 2023-10-12T22:41:40.085425100, generated = 
+  arg0: -13
+
+
+timestamp = 2023-10-12T22:41:40.086433600, generated = 
+  arg0: -12
+
+
+timestamp = 2023-10-12T22:41:40.086433600, generated = 
+  arg0: -11
+
+
+timestamp = 2023-10-12T22:41:40.087434, generated = 
+  arg0: -10
+
+
+timestamp = 2023-10-12T22:41:40.087434, generated = 
+  arg0: -9
+
+
+timestamp = 2023-10-12T22:41:40.088438900, generated = 
+  arg0: -8
+
+
+timestamp = 2023-10-12T22:41:40.088438900, generated = 
+  arg0: -7
+
+
+timestamp = 2023-10-12T22:41:40.089433800, generated = 
+  arg0: -6
+
+
+timestamp = 2023-10-12T22:41:40.089433800, generated = 
+  arg0: -5
+
+
+timestamp = 2023-10-12T22:41:40.090490, generated = 
+  arg0: -4
+
+
+timestamp = 2023-10-12T22:41:40.091834100, generated = 
+  arg0: -3
+
+
+timestamp = 2023-10-12T22:41:40.092848900, generated = 
+  arg0: -2
+
+
+timestamp = 2023-10-12T22:41:40.092848900, generated = 
+  arg0: -1
+
+
+timestamp = 2023-10-12T22:41:40.094196, generated = 
+  arg0: 0
+
+
+timestamp = 2023-10-12T22:41:40.094196, generated = 
+  arg0: 1
+
+
+timestamp = 2023-10-12T22:41:40.095207400, generated = 
+  arg0: 2
+
+
+timestamp = 2023-10-12T22:41:40.095207400, generated = 
+  arg0: 3
+
+
+timestamp = 2023-10-12T22:41:40.096586, generated = 
+  arg0: 4
+
+
+timestamp = 2023-10-12T22:41:40.097599800, generated = 
+  arg0: 5
+
+
+timestamp = 2023-10-12T22:41:40.097599800, generated = 
+  arg0: 6
+
+
+timestamp = 2023-10-12T22:41:40.098602400, generated = 
+  arg0: 7
+
+
+timestamp = 2023-10-12T22:41:40.098602400, generated = 
+  arg0: 8
+
+
+timestamp = 2023-10-12T22:41:40.100055400, generated = 
+  arg0: 9
+
+
+timestamp = 2023-10-12T22:41:40.100055400, generated = 
+  arg0: 10
+
+
+timestamp = 2023-10-12T22:41:40.101537100, generated = 
+  arg0: 11
+
+
+timestamp = 2023-10-12T22:41:40.101537100, generated = 
+  arg0: 12
+
+
+timestamp = 2023-10-12T22:41:40.102551800, generated = 
+  arg0: 13
+
+
+timestamp = 2023-10-12T22:41:40.103550300, generated = 
+  arg0: 14
+
+
+timestamp = 2023-10-12T22:41:40.103550300, generated = 
+  arg0: 15
+
+
+timestamp = 2023-10-12T22:41:40.104550700, generated = 
+  arg0: 16
+
+
+timestamp = 2023-10-12T22:41:40.105551, generated = 
+  arg0: 17
+
+
+timestamp = 2023-10-12T22:41:40.106553300, generated = 
+  arg0: 18
+
+
+timestamp = 2023-10-12T22:41:40.107553100, generated = 
+  arg0: 19
+
+
+timestamp = 2023-10-12T22:41:40.107553100, generated = 
+  arg0: 20
+
+
+timestamp = 2023-10-12T22:41:40.122907400, [CodeHW3Test:isPrimeTest] (41) ExpectedResult = 
+       # | label | count | 
+    -----|-------|-------|---------------------------------------------------------------------------------
+       0 | false |    33 | #################################
+       1 |  true |     8 | ########
+
+timestamp = 2023-10-12T22:41:40.122907400, [CodeHW3Test:isPrimeTest] (41) OurMethod = 
+       # | label | count | 
+    -----|-------|-------|---------------------------------------------------------------------------------
+       0 | false |    33 | #################################
+       1 |  true |     8 | ########
+
+timestamp = 2023-10-12T22:41:40.129936100, CodeHW3Test:isPrimeTest = 
+                              |-----------------------jqwik-----------------------
+tries = 41                    | # of calls to property
+checks = 41                   | # of not rejected calls
+generation = EXHAUSTIVE       | parameters are exhaustively generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 0          | # of all combined edge cases
+edge-cases#tried = 0          | # of edge cases tried in current run
+seed = -3998782451374731737   | random seed to reproduce generated values
+
+
+timestamp = 2023-10-12T22:41:40.137567600, generated = 
+  arg0: -20
+
+
+timestamp = 2023-10-12T22:41:40.138582200, generated = 
+  arg0: -19
+
+
+timestamp = 2023-10-12T22:41:40.138582200, generated = 
+  arg0: -18
+
+
+timestamp = 2023-10-12T22:41:40.139584200, generated = 
+  arg0: -17
+
+
+timestamp = 2023-10-12T22:41:40.139584200, generated = 
+  arg0: -16
+
+
+timestamp = 2023-10-12T22:41:40.140585100, generated = 
+  arg0: -15
+
+
+timestamp = 2023-10-12T22:41:40.140585100, generated = 
+  arg0: -14
+
+
+timestamp = 2023-10-12T22:41:40.141582400, generated = 
+  arg0: -13
+
+
+timestamp = 2023-10-12T22:41:40.141582400, generated = 
+  arg0: -12
+
+
+timestamp = 2023-10-12T22:41:40.142586, generated = 
+  arg0: -11
+
+
+timestamp = 2023-10-12T22:41:40.142586, generated = 
+  arg0: -10
+
+
+timestamp = 2023-10-12T22:41:40.143583300, generated = 
+  arg0: -9
+
+
+timestamp = 2023-10-12T22:41:40.143583300, generated = 
+  arg0: -8
+
+
+timestamp = 2023-10-12T22:41:40.144758900, generated = 
+  arg0: -7
+
+
+timestamp = 2023-10-12T22:41:40.145770500, generated = 
+  arg0: -6
+
+
+timestamp = 2023-10-12T22:41:40.145770500, generated = 
+  arg0: -5
+
+
+timestamp = 2023-10-12T22:41:40.147223300, generated = 
+  arg0: -4
+
+
+timestamp = 2023-10-12T22:41:40.148620500, generated = 
+  arg0: -3
+
+
+timestamp = 2023-10-12T22:41:40.149630400, generated = 
+  arg0: -2
+
+
+timestamp = 2023-10-12T22:41:40.150635300, generated = 
+  arg0: -1
+
+
+timestamp = 2023-10-12T22:41:40.150635300, generated = 
+  arg0: 0
+
+
+timestamp = 2023-10-12T22:41:40.152113600, generated = 
+  arg0: 1
+
+
+timestamp = 2023-10-12T22:41:40.152623200, generated = 
+  arg0: 2
+
+
+timestamp = 2023-10-12T22:41:40.152623200, generated = 
+  arg0: 3
+
+
+timestamp = 2023-10-12T22:41:40.153903600, generated = 
+  arg0: 4
+
+
+timestamp = 2023-10-12T22:41:40.153903600, generated = 
+  arg0: 5
+
+
+timestamp = 2023-10-12T22:41:40.155366800, generated = 
+  arg0: 6
+
+
+timestamp = 2023-10-12T22:41:40.156392900, generated = 
+  arg0: 7
+
+
+timestamp = 2023-10-12T22:41:40.157380700, generated = 
+  arg0: 8
+
+
+timestamp = 2023-10-12T22:41:40.158376200, generated = 
+  arg0: 9
+
+
+timestamp = 2023-10-12T22:41:40.158376200, generated = 
+  arg0: 10
+
+
+timestamp = 2023-10-12T22:41:40.159375400, generated = 
+  arg0: 11
+
+
+timestamp = 2023-10-12T22:41:40.161381500, generated = 
+  arg0: 12
+
+
+timestamp = 2023-10-12T22:41:40.161381500, generated = 
+  arg0: 13
+
+
+timestamp = 2023-10-12T22:41:40.161381500, generated = 
+  arg0: 14
+
+
+timestamp = 2023-10-12T22:41:40.161381500, generated = 
+  arg0: 15
+
+
+timestamp = 2023-10-12T22:41:40.162381700, generated = 
+  arg0: 16
+
+
+timestamp = 2023-10-12T22:41:40.162381700, generated = 
+  arg0: 17
+
+
+timestamp = 2023-10-12T22:41:40.162381700, generated = 
+  arg0: 18
+
+
+timestamp = 2023-10-12T22:41:40.163379, generated = 
+  arg0: 19
+
+
+timestamp = 2023-10-12T22:41:40.163379, generated = 
+  arg0: 20
+
+
+timestamp = 2023-10-12T22:41:40.164377200, [CodeHW3Test:evenOrOddTest] (41) ExpectedResult = 
+       # | label | count | 
+    -----|-------|-------|---------------------------------------------------------------------------------
+       0 | false |    20 | ####################
+       1 |  true |    21 | #####################
+
+timestamp = 2023-10-12T22:41:40.164377200, [CodeHW3Test:evenOrOddTest] (41) OurMethod = 
+       # | label | count | 
+    -----|-------|-------|---------------------------------------------------------------------------------
+       0 | false |    20 | ####################
+       1 |  true |    21 | #####################
+
+timestamp = 2023-10-12T22:41:40.164377200, CodeHW3Test:evenOrOddTest = 
+                              |-----------------------jqwik-----------------------
+tries = 41                    | # of calls to property
+checks = 41                   | # of not rejected calls
+generation = EXHAUSTIVE       | parameters are exhaustively generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 0          | # of all combined edge cases
+edge-cases#tried = 0          | # of edge cases tried in current run
+seed = -9166111914500762235   | random seed to reproduce generated values
+
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
