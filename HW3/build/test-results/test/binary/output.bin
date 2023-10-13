@@ -1,378 +1,0 @@
-9timestamp = 2023-10-12T22:41:40.065194800, generated = 
-  arg0: -20
-
-
-9timestamp = 2023-10-12T22:41:40.080637300, generated = 
-  arg0: -19
-
-
-9timestamp = 2023-10-12T22:41:40.082106700, generated = 
-  arg0: -18
-
-
-9timestamp = 2023-10-12T22:41:40.082106700, generated = 
-  arg0: -17
-
-
-9timestamp = 2023-10-12T22:41:40.083114900, generated = 
-  arg0: -16
-
-
-6timestamp = 2023-10-12T22:41:40.084323, generated = 
-  arg0: -15
-
-
-9timestamp = 2023-10-12T22:41:40.085425100, generated = 
-  arg0: -14
-
-
-9timestamp = 2023-10-12T22:41:40.085425100, generated = 
-  arg0: -13
-
-
-9timestamp = 2023-10-12T22:41:40.086433600, generated = 
-  arg0: -12
-
-
-9timestamp = 2023-10-12T22:41:40.086433600, generated = 
-  arg0: -11
-
-
-6timestamp = 2023-10-12T22:41:40.087434, generated = 
-  arg0: -10
-
-
-6timestamp = 2023-10-12T22:41:40.087434, generated = 
-  arg0: -9
-
-
-9timestamp = 2023-10-12T22:41:40.088438900, generated = 
-  arg0: -8
-
-
-9timestamp = 2023-10-12T22:41:40.088438900, generated = 
-  arg0: -7
-
-
-9timestamp = 2023-10-12T22:41:40.089433800, generated = 
-  arg0: -6
-
-
-9timestamp = 2023-10-12T22:41:40.089433800, generated = 
-  arg0: -5
-
-
-6timestamp = 2023-10-12T22:41:40.090490, generated = 
-  arg0: -4
-
-
-9timestamp = 2023-10-12T22:41:40.091834100, generated = 
-  arg0: -3
-
-
-9timestamp = 2023-10-12T22:41:40.092848900, generated = 
-  arg0: -2
-
-
-9timestamp = 2023-10-12T22:41:40.092848900, generated = 
-  arg0: -1
-
-
-6timestamp = 2023-10-12T22:41:40.094196, generated = 
-  arg0: 0
-
-
-6timestamp = 2023-10-12T22:41:40.094196, generated = 
-  arg0: 1
-
-
-9timestamp = 2023-10-12T22:41:40.095207400, generated = 
-  arg0: 2
-
-
-9timestamp = 2023-10-12T22:41:40.095207400, generated = 
-  arg0: 3
-
-
-6timestamp = 2023-10-12T22:41:40.096586, generated = 
-  arg0: 4
-
-
-9timestamp = 2023-10-12T22:41:40.097599800, generated = 
-  arg0: 5
-
-
-9timestamp = 2023-10-12T22:41:40.097599800, generated = 
-  arg0: 6
-
-
-9timestamp = 2023-10-12T22:41:40.098602400, generated = 
-  arg0: 7
-
-
-9timestamp = 2023-10-12T22:41:40.098602400, generated = 
-  arg0: 8
-
-
-9timestamp = 2023-10-12T22:41:40.100055400, generated = 
-  arg0: 9
-
-
-9timestamp = 2023-10-12T22:41:40.100055400, generated = 
-  arg0: 10
-
-
-9timestamp = 2023-10-12T22:41:40.101537100, generated = 
-  arg0: 11
-
-
-9timestamp = 2023-10-12T22:41:40.101537100, generated = 
-  arg0: 12
-
-
-9timestamp = 2023-10-12T22:41:40.102551800, generated = 
-  arg0: 13
-
-
-9timestamp = 2023-10-12T22:41:40.103550300, generated = 
-  arg0: 14
-
-
-9timestamp = 2023-10-12T22:41:40.103550300, generated = 
-  arg0: 15
-
-
-9timestamp = 2023-10-12T22:41:40.104550700, generated = 
-  arg0: 16
-
-
-6timestamp = 2023-10-12T22:41:40.105551, generated = 
-  arg0: 17
-
-
-9timestamp = 2023-10-12T22:41:40.106553300, generated = 
-  arg0: 18
-
-
-9timestamp = 2023-10-12T22:41:40.107553100, generated = 
-  arg0: 19
-
-
-9timestamp = 2023-10-12T22:41:40.107553100, generated = 
-  arg0: 20
-
-
-]timestamp = 2023-10-12T22:41:40.122907400, [CodeHW3Test:isPrimeTest] (41) ExpectedResult = 
-       # | label | count | 
-m    -----|-------|-------|---------------------------------------------------------------------------------
->       0 | false |    33 | #################################
-%       1 |  true |     8 | ########
-
-Xtimestamp = 2023-10-12T22:41:40.122907400, [CodeHW3Test:isPrimeTest] (41) OurMethod = 
-       # | label | count | 
-m    -----|-------|-------|---------------------------------------------------------------------------------
->       0 | false |    33 | #################################
-%       1 |  true |     8 | ########
-
-Gtimestamp = 2023-10-12T22:41:40.129936100, CodeHW3Test:isPrimeTest = 
-T                              |-----------------------jqwik-----------------------
-8tries = 41                    | # of calls to property
-9checks = 41                   | # of not rejected calls
-Ggeneration = EXHAUSTIVE       | parameters are exhaustively generated
-Rafter-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
-Cwhen-fixed-seed = ALLOW       | fixing the random seed is allowed
-9edge-cases#mode = MIXIN       | edge cases are mixed in
->edge-cases#total = 0          | # of all combined edge cases
-Fedge-cases#tried = 0          | # of edge cases tried in current run
-Kseed = -3998782451374731737   | random seed to reproduce generated values
-
-
-9timestamp = 2023-10-12T22:41:40.137567600, generated = 
-  arg0: -20
-
-
-9timestamp = 2023-10-12T22:41:40.138582200, generated = 
-  arg0: -19
-
-
-9timestamp = 2023-10-12T22:41:40.138582200, generated = 
-  arg0: -18
-
-
-9timestamp = 2023-10-12T22:41:40.139584200, generated = 
-  arg0: -17
-
-
-9timestamp = 2023-10-12T22:41:40.139584200, generated = 
-  arg0: -16
-
-
-9timestamp = 2023-10-12T22:41:40.140585100, generated = 
-  arg0: -15
-
-
-9timestamp = 2023-10-12T22:41:40.140585100, generated = 
-  arg0: -14
-
-
-9timestamp = 2023-10-12T22:41:40.141582400, generated = 
-  arg0: -13
-
-
-9timestamp = 2023-10-12T22:41:40.141582400, generated = 
-  arg0: -12
-
-
-6timestamp = 2023-10-12T22:41:40.142586, generated = 
-  arg0: -11
-
-
-6timestamp = 2023-10-12T22:41:40.142586, generated = 
-  arg0: -10
-
-
-9timestamp = 2023-10-12T22:41:40.143583300, generated = 
-  arg0: -9
-
-
-9timestamp = 2023-10-12T22:41:40.143583300, generated = 
-  arg0: -8
-
-
-9timestamp = 2023-10-12T22:41:40.144758900, generated = 
-  arg0: -7
-
-
-9timestamp = 2023-10-12T22:41:40.145770500, generated = 
-  arg0: -6
-
-
-9timestamp = 2023-10-12T22:41:40.145770500, generated = 
-  arg0: -5
-
-
-9timestamp = 2023-10-12T22:41:40.147223300, generated = 
-  arg0: -4
-
-
-9timestamp = 2023-10-12T22:41:40.148620500, generated = 
-  arg0: -3
-
-
-9timestamp = 2023-10-12T22:41:40.149630400, generated = 
-  arg0: -2
-
-
-9timestamp = 2023-10-12T22:41:40.150635300, generated = 
-  arg0: -1
-
-
-9timestamp = 2023-10-12T22:41:40.150635300, generated = 
-  arg0: 0
-
-
-9timestamp = 2023-10-12T22:41:40.152113600, generated = 
-  arg0: 1
-
-
-9timestamp = 2023-10-12T22:41:40.152623200, generated = 
-  arg0: 2
-
-
-9timestamp = 2023-10-12T22:41:40.152623200, generated = 
-  arg0: 3
-
-
-9timestamp = 2023-10-12T22:41:40.153903600, generated = 
-  arg0: 4
-
-
-9timestamp = 2023-10-12T22:41:40.153903600, generated = 
-  arg0: 5
-
-
-9timestamp = 2023-10-12T22:41:40.155366800, generated = 
-  arg0: 6
-
-
-9timestamp = 2023-10-12T22:41:40.156392900, generated = 
-  arg0: 7
-
-
-9timestamp = 2023-10-12T22:41:40.157380700, generated = 
-  arg0: 8
-
-
-9timestamp = 2023-10-12T22:41:40.158376200, generated = 
-  arg0: 9
-
-
-9timestamp = 2023-10-12T22:41:40.158376200, generated = 
-  arg0: 10
-
-
-9timestamp = 2023-10-12T22:41:40.159375400, generated = 
-  arg0: 11
-
-
-9timestamp = 2023-10-12T22:41:40.161381500, generated = 
-  arg0: 12
-
-
-9timestamp = 2023-10-12T22:41:40.161381500, generated = 
-  arg0: 13
-
-
-9timestamp = 2023-10-12T22:41:40.161381500, generated = 
-  arg0: 14
-
-
-9timestamp = 2023-10-12T22:41:40.161381500, generated = 
-  arg0: 15
-
-
-9timestamp = 2023-10-12T22:41:40.162381700, generated = 
-  arg0: 16
-
-
-9timestamp = 2023-10-12T22:41:40.162381700, generated = 
-  arg0: 17
-
-
-9timestamp = 2023-10-12T22:41:40.162381700, generated = 
-  arg0: 18
-
-
-6timestamp = 2023-10-12T22:41:40.163379, generated = 
-  arg0: 19
-
-
-6timestamp = 2023-10-12T22:41:40.163379, generated = 
-  arg0: 20
-
-
-_timestamp = 2023-10-12T22:41:40.164377200, [CodeHW3Test:evenOrOddTest] (41) ExpectedResult = 
-       # | label | count | 
-m    -----|-------|-------|---------------------------------------------------------------------------------
-1       0 | false |    20 | ####################
-2       1 |  true |    21 | #####################
-
-Ztimestamp = 2023-10-12T22:41:40.164377200, [CodeHW3Test:evenOrOddTest] (41) OurMethod = 
-       # | label | count | 
-m    -----|-------|-------|---------------------------------------------------------------------------------
-1       0 | false |    20 | ####################
-2       1 |  true |    21 | #####################
-
-Itimestamp = 2023-10-12T22:41:40.164377200, CodeHW3Test:evenOrOddTest = 
-T                              |-----------------------jqwik-----------------------
-8tries = 41                    | # of calls to property
-9checks = 41                   | # of not rejected calls
-Ggeneration = EXHAUSTIVE       | parameters are exhaustively generated
-Rafter-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
-Cwhen-fixed-seed = ALLOW       | fixing the random seed is allowed
-9edge-cases#mode = MIXIN       | edge cases are mixed in
->edge-cases#total = 0          | # of all combined edge cases
-Fedge-cases#tried = 0          | # of edge cases tried in current run
-Kseed = -9166111914500762235   | random seed to reproduce generated values
-
-
